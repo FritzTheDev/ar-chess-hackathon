@@ -1,7 +1,7 @@
 const boardModel = document.createElement('a-entity');
 boardModel.setAttribute('obj-model', "obj: url(assets/CustomBoard.obj); mtl: url(assets/CustomBoard.mtl);");
 boardModel.setAttribute('position', { x: 0, y: 0, z: 0 });
-boardModel.setAttribute('scale', { x: .2, y: .2, z:.2 });
+boardModel.setAttribute('scale', { x: .075, y: .075, z:.075 });
 document.querySelector('a-marker').appendChild(boardModel);
 const chess = new Chess();
 
