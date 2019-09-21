@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chessjs": "0.0.1"
+    "chess.js": "github:jhlywa/chess.js"
   }
 }
